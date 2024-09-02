@@ -133,19 +133,31 @@ div h2 u b {
     padding: 10px;
 }
 
-ul li {
-    color: red;
-    font-weight: bold;
-}
-
 span p {
     color: white;
     font-size: 24px;
 }
 
+ul li {
+    color: red;
+    font-weight: bold;
+}
+
 .about_books {
     color: white;
     font-size: 24px;
+}
+
+.bookss {
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+}
+
+.bookss:hover {
+    text-decoration: underline;
+    color: white;
+    margin-left: 20px;
 }
 
 footer {
