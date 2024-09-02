@@ -138,7 +138,12 @@ ul li {
     font-weight: bold;
 }
 
-span p{
+span p {
+    color: white;
+    font-size: 24px;
+}
+
+.about_books {
     color: white;
     font-size: 24px;
 }
