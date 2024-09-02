@@ -23,7 +23,7 @@ h1 {
 
 .declaration {
     color: white;
-    margin-left: 15px;
+    margin-left: 55px;
     font-size: 28px;
 }
 
@@ -158,15 +158,20 @@ ul li {
     text-decoration: none;
     color: white;
     margin-left: 10px;
+    display: flex;
+    flex-direction: row-reverse;
 }
 
 .bookss:hover {
     text-decoration: underline;
     color: white;
     margin-left: 20px;
+    display: flex;
+    flex-direction: row-reverse;
 }
 
 footer {
+    margin-top: 120px;
     color: white;
     text-align: center;
     bottom: 0;
