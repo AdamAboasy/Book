@@ -45,5 +45,11 @@ img {
     margin-top: 10px;
     width: 100px;
     height: 150px;
-    border-radius: 25%;
+    border-radius: 0;
+    transition: 2s;
+}
+
+img:hover {
+    transition: 2s;
+    border-radius: 200%;
 }
