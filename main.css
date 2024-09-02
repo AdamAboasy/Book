@@ -133,6 +133,11 @@ div h2 u b {
     padding: 10px;
 }
 
+span p{
+    color: white;
+    font-size: 24px;
+}
+
 footer {
     color: white;
     text-align: center;
