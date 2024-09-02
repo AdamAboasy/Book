@@ -8,3 +8,34 @@ h1 {
     font-size: 48px;
     color: white;
 }
+
+li a {
+    text-decoration: none;
+    color: white;
+    margin-left: 25px;
+    transition: 0.3s;
+}
+
+li a:hover {
+    text-decoration: underline;
+    margin-left: 50px;
+    padding: 10px;
+    color: white;
+    transition: 0.3s;
+}
+
+.back {
+    text-decoration: none;
+    color: white;
+    margin-left: 55px;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.back:hover {
+    text-decoration: underline;
+    color: white;
+    margin-left: 70px;
+    padding: 10px;
+    transition: 0.3s;
+}
