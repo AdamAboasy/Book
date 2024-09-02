@@ -6,12 +6,12 @@ h1 {
     font-weight: bold;
     text-align: center;
     font-size: 48px;
-    color: white;
+    color: red;
 }
 
 li a {
     text-decoration: none;
-    color: white;
+    color: orange;
     margin-left: 35px;
     transition: 0.3s;
 }
@@ -20,13 +20,13 @@ li a:hover {
     text-decoration: underline;
     margin-left: 35px;
     padding: 10px;
-    color: white;
+    color: yollow;
     transition: 0.3s;
 }
 
 .back {
     text-decoration: none;
-    color: white;
+    color: blue;
     margin-left: 35px;
     padding: 10px;
     transition: 0.3s;
@@ -34,7 +34,7 @@ li a:hover {
 
 .back:hover {
     text-decoration: underline;
-    color: white;
+    color: purple;
     margin-left: 35px;
     padding: 10px;
     transition: 0.3s;
