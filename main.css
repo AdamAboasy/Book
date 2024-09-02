@@ -133,6 +133,11 @@ div h2 u b {
     padding: 10px;
 }
 
+ul li {
+    color: red;
+    font-weyght: bold;
+}
+
 span p{
     color: white;
     font-size: 24px;
