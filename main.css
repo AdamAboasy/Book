@@ -1,0 +1,140 @@
+body {
+    background-color: #333;
+}
+
+h1 {
+    font-weight: bold;
+    text-align: center;
+    font-size: 48px;
+    color: white;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    text-align: center;
+    transition: 0.3s;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.nav a:hover {
+    transition: 0.3s;
+    text-decoration: underline;
+    margin-left: 20px;
+}
+
+.about_web {
+    color: white;
+    margin-left: 25px;
+}
+
+.about_web h2 {
+    font-size: 32px;
+}
+
+.about_web a {
+    text-decoration: none;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    font-size: 20px;
+    color: white;
+    transition: 0.3s;
+}
+
+.about_web a:hover {
+    text-decoration: none;
+    margin-bottom: 80px;
+    margin-top: 20px;
+    font-size: 24px;
+    transition: 0.3s;
+    background-color: rgb(0, 0, 57);
+    border-radius: 20%;
+    padding: 10px;
+}
+
+.about_web a.action {
+    color: orangered;
+}
+
+.about_web a.drama {
+    color: green;
+}
+
+.about_web a.police {
+    color: cyan;
+}
+
+.about_developers {
+    color: white;
+    margin-left: 25px;
+}
+
+.about_developers h2 {
+    font-size: 32px;
+}
+
+.about_developers a.link {
+    text-align: left;
+    margin-left: 20px;
+    font-size: 24px;
+    color: white;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.about_developers a.link:hover {
+    text-align: left;
+    margin-left: 35px;
+    font-size: 24px;
+    background-color: black;
+    color: goldenrod;
+    text-decoration: underline;
+    transition: 0.3s;
+}
+
+div h2 u b {
+    color: blue;
+    font-size: 24px;
+    margin-left: 25px;
+    text-align: left;
+}
+
+.Birth {
+    color: blue;
+}
+
+.s {
+    text-decoration: none;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    font-size: 20px;
+    color: white;
+    transition: 0.3s;
+    margin-right: 80px;
+    display: flex;
+    justify-content: end;
+}
+
+.s:hover {
+    text-decoration: none;
+    margin-bottom: 80px;
+    margin-right: 50px;
+    margin-top: 20px;
+    font-size: 28px;
+    transition: 0.3s;
+    display: flex;
+    justify-content: end;
+    background-color: #333;
+    border-radius: 20%;
+    padding: 10px;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    bottom: 0;
+}
