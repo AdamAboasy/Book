@@ -39,3 +39,10 @@ li a:hover {
     padding: 10px;
     transition: 0.3s;
 }
+
+img {
+    margin-left: 50px;
+    margin-top: 10px;
+    width: 100px;
+    height: 150px;
+}
