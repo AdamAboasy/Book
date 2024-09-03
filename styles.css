@@ -8,6 +8,10 @@ body {
     margin: 0;
 }
 
+a.sign_out {
+    color: crimson;
+}
+
 .signup-container {
     background-color: white;
     padding: 20px;
