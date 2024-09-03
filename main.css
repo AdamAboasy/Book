@@ -27,6 +27,13 @@ h1 {
     font-size: 28px;
 }
 
+.declaration span {
+    font-size: 32px;
+    font-weight: bold;
+    color: chartreuse;
+    text-decoration: underline;
+}
+
 .nav a:hover {
     transition: 0.3s;
     text-decoration: underline;
@@ -222,4 +229,8 @@ span p {
 ul li {
     color: red;
     font-weight: bold;
+}
+
+.contact {
+    margin-top: 10px;
 }
