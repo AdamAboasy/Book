@@ -67,6 +67,13 @@ img:hover {
     color: green;
 }
 
+.p{
+    font-weight: bold;
+    text-align: center;
+    font-size: 48px;
+    color:cyan ;
+}
+
 
 footer {
     margin-top: 120px;
