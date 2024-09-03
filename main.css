@@ -159,6 +159,25 @@ ul li {
 .about_books {
     color: white;
     font-size: 24px;
+    margin-left: 20px;
+}
+
+.books {
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+    transition: 0.3s;
+}
+
+.books:hover {
+    text-decoration: underline;
+    color: white;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+    transition: 0.3s;
 }
 
 .bookss {
