@@ -7,4 +7,10 @@ body {
     flex-direction: row-reverse;
     text-decoration: none;
     color: white;
+    transition: 0.3s;
+}
+
+.la:hover {
+    margin-right: 10px;
+    transition: 0.3s;
 }
