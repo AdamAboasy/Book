@@ -1,62 +1,76 @@
-<!DOCTYPE html>
-<html>
+body {
+    background-color: #333;
+}
 
-<head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Books</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='Book.css'>
-</head>
+.a {
+    font-weight: bold;
+    text-align: center;
+    font-size: 48px;
+    color: red;
+}
 
-<body>
-    <a href="Caspar.html" class="back">Back</a>
-    <h1>
-        <b>
-            <u>
-                Action Books
-            </u>
-        </b>
-    </h1>
-    <li>
-        <a href="https://actionbooks.org/2024/01/gunnar-waerness-friends-with-everyone/">Gunnar Wærness, Friends with
-            Everyone</a>
-    </li><img src="https://actionbooks.org/wp-content/uploads/2024/01/FRIENDS_fcover_300-400x569.jpg"
-        alt="Gunnar Wærness, Friends withEveryone">
-    <p></p>
-    <li>
-        <a
-            href="https://books.google.com.eg/books?id=gY5ODwAAQBAJ&pg=PP5&dq=action+book&hl=ar&newbks=1&newbks_redir=1&sa=X&ved=2ahUKEwih5IWIoKSIAxXISfEDHXRVBRsQ6AF6BAgIEAI">My
-            Business</a>
-    </li>
-    <img src="data:image/jpg;base64,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"
-        alt="">
-    <p></p>
-    <li>
-        <a href="https://actionbooks.org/2024/01/lara-glenum-snow/">
-            Lara Glenum, SNOW
-        </a>
-    </li>
-    <img src="https://actionbooks.org/wp-content/uploads/2024/01/SNOW_cover_300.jpg" alt="">
-    <p></p>
-    <li>
-        <a href="https://actionbooks.org/2024/01/mike-corrao-surface-studies/">
-            Mike Corrao, Surface Studies
-        </a>
-    </li>
-    <img src="https://actionbooks.org/wp-content/uploads/2024/01/Surface-Studies-front-cover.jpg" alt="">
-    <p></p>
-</body>
-<h1>
-    <b>
-        <u>
-            Drama Books
-        </u>
-    </b>
-</h1>
-<footer>
-    <p>&copy; 2024 Professional Landing Page. All rights reserved.</p>
-    <script src='main.js'></script>
-</footer>
+li a {
+    text-decoration: none;
+    color: orange;
+    margin-left: 35px;
+    transition: 0.3s;
+}
 
-</html>
+li a:hover {
+    text-decoration: underline;
+    margin-left: 35px;
+    padding: 10px;
+    color: yellow;
+    transition: 0.3s;
+}
+
+.back {
+    text-decoration: none;
+    color: blue;
+    margin-right: 35px;
+    padding: 10px;
+    font-size: 32px;
+    transition: 0.3s;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.back:hover {
+    text-decoration: underline;
+    color: purple;
+    margin-right: 35px;
+    padding: 10px;
+    font-size: 32px;
+    transition: 0.3s;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+img {
+    margin-left: 50px;
+    margin-top: 10px;
+    width: 100px;
+    height: 150px;
+    border-radius: 0;
+    transition: 2s;
+}
+
+img:hover {
+    transition: 2s;
+    border-radius: 200%;
+}
+
+.d {
+    font-weight: bold;
+    text-align: center;
+    font-size: 48px;
+    color: green;
+}
+
+
+footer {
+    margin-top: 120px;
+    color: white;
+    text-align: center;
+    bottom: 0;
+}
