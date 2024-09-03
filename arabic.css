@@ -1,0 +1,61 @@
+body {
+    background-color: #333;
+}
+
+h1 {
+    font-weight: bold;
+    text-align: center;
+    font-size: 48px;
+    color: white;
+}
+
+.declaration {
+    color: white;
+    margin-left: 55px;
+    font-size: 28px;
+}
+
+.declaration span {
+    font-size: 32px;
+    font-weight: bold;
+    color: chartreuse;
+    text-decoration: uderline;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    text-align: center;
+    transition: 0.3s;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.nav a:hover {
+    transition: 0.3s;
+    text-decoration: underline;
+    margin-left: 20px;
+}
+
+.ars {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    text-align: center;
+    transition: 0.3s;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.ars:hover {
+    transition: 0.3s;
+    text-decoration: underline;
+    margin-right: 20px;
+}
