@@ -9,7 +9,9 @@ body {
     margin-left: 150px;
     padding-right: 30px;
     padding-left: 30px;
-    font-size: 60px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 1px;
 }
 
 .no {
@@ -18,12 +20,23 @@ body {
     background-color: red;
     padding-right: 30px;
     padding-left: 30px;
-    font-size: 60px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 1px;
 }
 
-.sure {
-    text-align: center;
+.are {
+    position: relative;
     display: flex;
     justify-content: space-around;
-    margin-top: 150px;
+    margin: auto;
+    margin-top: 100px;
+    margin-left: 200px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+    padding-top: 150px;
 }
