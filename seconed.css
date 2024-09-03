@@ -9,6 +9,7 @@ body {
     margin-left: 150px;
     padding-right: 30px;
     padding-left: 30px;
+    font-size: 60px;
 }
 
 .no {
@@ -17,6 +18,7 @@ body {
     background-color: red;
     padding-right: 30px;
     padding-left: 30px;
+    font-size: 60px;
 }
 
 .sure {
