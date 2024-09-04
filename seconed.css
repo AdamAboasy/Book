@@ -1,5 +1,19 @@
+/* Default (light mode) */
+:root {
+    --background-color: #ffffff;
+    --text-color: #000000;
+}
+
+/* Dark mode */
+body.dark-mode {
+    --background-color: #333333;
+    --text-color: #ffffff;
+}
+
 body {
-    background-color: #333;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    transition: background-color 0.3s, color 0.3s;
 }
 
 .yes {
@@ -39,7 +53,6 @@ body {
 h1 {
     text-align: center;
     margin-bottom: 20px;
-    color: white;
     padding-top: 150px;
-    font-size: 80px;
+    font-size: 60px;
 }
