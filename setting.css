@@ -30,4 +30,12 @@ button {
     display: flex;
     flex-direction: row;
     text-decoration: none;
+    color: var(--text-color);
+}
+
+.la {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    color: var(--text-color);
 }
