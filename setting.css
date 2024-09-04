@@ -1,16 +1,33 @@
+/* Default (light mode) */
+:root {
+    --background-color: #ffffff;
+    --text-color: #000000;
+}
+
+/* Dark mode */
+body.dark-mode {
+    --background-color: #333333;
+    --text-color: #ffffff;
+}
+
 body {
-    background-color: #333;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: var(--text-color);
+    color: var(--background-color);
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s, color 0.3s;
 }
 
 .la {
     display: flex;
     flex-direction: row;
     text-decoration: none;
-    color: white;
-    transition: 0.3s;
-}
-
-.la:hover {
-    margin-right: 10px;
-    transition: 0.3s;
 }
