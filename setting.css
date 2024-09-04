@@ -31,8 +31,9 @@ h1 {
     font-size: 42px;
 }
 
-.la {
+.H {
     display: flex;
+    margin-left: 10px;
     flex-direction: row;
     text-decoration: none;
     color: var(--text-color);
@@ -40,6 +41,31 @@ h1 {
 
 .la {
     display: flex;
+    margin-left: 10px;
+    flex-direction: row;
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.la:hover {
+    display: flex;
+    margin-left: 20px;
+    flex-direction: row;
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.ar {
+    display: flex;
+    margin-left: 10px;
+    flex-direction: row;
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.ar:hover {
+    display: flex;
+    margin-left: 20px;
     flex-direction: row;
     text-decoration: none;
     color: var(--text-color);
