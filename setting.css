@@ -26,6 +26,11 @@ button {
     transition: background-color 0.3s, color 0.3s;
 }
 
+h1 {
+    text-align: center;
+    font-size: 42px;
+}
+
 .la {
     display: flex;
     flex-direction: row;
