@@ -1,17 +1,29 @@
+/* Default (light mode) */
+:root {
+    --background-color: #ffffff;
+    --text-color: #000000;
+}
+
+/* Dark mode */
+body.dark-mode {
+    --background-color: #333333;
+    --text-color: #ffffff;
+}
+
 body {
-    background-color: #333;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    transition: background-color 0.3s, color 0.3s;
 }
 
 h1 {
     font-weight: bold;
     text-align: center;
     font-size: 48px;
-    color: white;
 }
 
 .nav a {
     text-decoration: none;
-    color: white;
     display: flex;
     justify-content: start;
     align-items: center;
@@ -22,7 +34,6 @@ h1 {
 }
 
 .declaration {
-    color: white;
     margin-left: 55px;
     font-size: 28px;
 }
@@ -35,7 +46,6 @@ h1 {
 }
 
 ul.u li {
-    color: white;
     font-size: 28px;
 }
 
@@ -46,7 +56,6 @@ ul.u li {
 }
 
 .about_web {
-    color: white;
     margin-left: 25px;
 }
 
@@ -59,7 +68,6 @@ ul.u li {
     margin-bottom: 40px;
     margin-top: 40px;
     font-size: 20px;
-    color: white;
     transition: 0.3s;
 }
 
@@ -87,7 +95,6 @@ ul.u li {
 }
 
 .about_developers {
-    color: white;
     margin-left: 25px;
 }
 
@@ -99,7 +106,6 @@ ul.u li {
     text-align: left;
     margin-left: 20px;
     font-size: 24px;
-    color: white;
     transition: 0.3s;
     text-decoration: none;
 }
@@ -130,7 +136,6 @@ div h2 u b {
     margin-bottom: 40px;
     margin-top: 40px;
     font-size: 20px;
-    color: white;
     transition: 0.3s;
     margin-right: 80px;
     display: flex;
@@ -152,7 +157,6 @@ div h2 u b {
 }
 
 span p {
-    color: white;
     font-size: 24px;
 }
 
@@ -162,14 +166,12 @@ ul li {
 }
 
 .about_books {
-    color: white;
     font-size: 24px;
     margin-left: 20px;
 }
 
 .books {
     text-decoration: none;
-    color: white;
     margin-left: 10px;
     display: flex;
     flex-direction: row;
@@ -178,7 +180,6 @@ ul li {
 
 .books:hover {
     text-decoration: underline;
-    color: white;
     margin-left: 20px;
     display: flex;
     flex-direction: row;
@@ -187,7 +188,6 @@ ul li {
 
 .bookss {
     text-decoration: none;
-    color: white;
     margin-left: 10px;
     display: flex;
     flex-direction: row-reverse;
@@ -195,7 +195,6 @@ ul li {
 
 .bookss:hover {
     text-decoration: underline;
-    color: white;
     margin-left: 20px;
     display: flex;
     flex-direction: row-reverse;
@@ -203,7 +202,6 @@ ul li {
 
 footer {
     margin-top: 120px;
-    color: white;
     text-align: center;
     bottom: 0;
 }
@@ -224,7 +222,6 @@ div h2 u b {
     margin-bottom: 40px;
     margin-top: 40px;
     font-size: 20px;
-    color: white;
     transition: 0.3s;
     margin-right: 80px;
     display: flex;
@@ -246,7 +243,6 @@ div h2 u b {
 }
 
 span p {
-    color: white;
     font-size: 24px;
 }
 
