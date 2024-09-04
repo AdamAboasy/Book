@@ -4,7 +4,7 @@ body {
 
 .la {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     text-decoration: none;
     color: white;
     transition: 0.3s;
