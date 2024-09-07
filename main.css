@@ -4,7 +4,6 @@
     --text-color: #000000;
 } */
 
-
 /* Dark mode */
 body.dark-mode {
     --background-color: #333333;
@@ -12,8 +11,8 @@ body.dark-mode {
 }
 
 body {
-    background-color: var(--background-color);
-    color: var(--text-color);
+    background-color: #333;
+    color: white;
     transition: background-color 0.3s, color 0.3s;
 }
 
@@ -254,4 +253,21 @@ ul li {
 
 .contact {
     margin-top: 10px;
+}
+
+
+.ar {
+    display: flex;
+    margin-left: 10px;
+    flex-direction: row;
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.ar:hover {
+    display: flex;
+    margin-left: 20px;
+    flex-direction: row;
+    text-decoration: none;
+    color: var(--text-color);
 }

@@ -1,9 +1,8 @@
 /* Default (light mode) */
-/* :root {
+:root {
     --background-color: #ffffff;
     --text-color: #000000;
-} */
-
+}
 
 /* Dark mode */
 body.dark-mode {
@@ -40,6 +39,7 @@ h1 {
 .nav a {
     text-decoration: none;
     display: flex;
+    color: var(--text-color);
     justify-content: end;
     align-items: center;
     text-align: center;
@@ -50,6 +50,7 @@ h1 {
 
 .nav a:hover {
     transition: 0.3s;
+    color: var(--text-color);
     text-decoration: underline;
     margin-left: 20px;
 }
@@ -57,6 +58,7 @@ h1 {
 .ars {
     text-decoration: none;
     display: flex;
+    color: var(--text-color);
     justify-content: end;
     align-items: center;
     text-align: center;
@@ -67,6 +69,7 @@ h1 {
 
 .ars:hover {
     transition: 0.3s;
+    color: var(--text-color);
     text-decoration: underline;
     margin-right: 20px;
 }

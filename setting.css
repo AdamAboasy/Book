@@ -1,8 +1,8 @@
 /* Default (light mode) */
-/* :root {
+:root {
     --background-color: #ffffff;
     --text-color: #000000;
-} */
+}
 
 /* Dark mode */
 body.dark-mode {
