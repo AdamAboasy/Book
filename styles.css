@@ -164,3 +164,20 @@ button {
 button:hover {
     background-color: #45a049;
 }
+.a2 {
+    text-decoration: none;
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px;
+    background-color:orangered;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.a2:hover{
+    background-color: cyan;
+}
+
