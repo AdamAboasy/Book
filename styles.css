@@ -125,6 +125,12 @@ button:hover {
     width: 300px;
 }
 
+.sign-out {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 h2 {
     text-align: center;
     margin-bottom: 20px;
@@ -164,20 +170,27 @@ button {
 button:hover {
     background-color: #45a049;
 }
+
 .a2 {
     text-decoration: none;
     margin-top: 10px;
     width: 100%;
     padding: 10px;
-    background-color:yellow;
+    background-color: orangered;
     color: white;
     border: none;
     border-radius: 4px;
     cursor: pointer;
     transition: 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.a2:hover{
+.a2:hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: cyan;
+    color: black;
 }
-
