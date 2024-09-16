@@ -84,9 +84,9 @@ a.sign-out {
     justify-self: center;
     text-align: center;
     text-decoration: none;
-    margin-left: 40%;
+    margin-left: 30%;
     margin-top: 30px;
-    width: 300px;
+    width: 500px;
     padding: 10px;
     background-color: black;
     color: white;
@@ -94,8 +94,9 @@ a.sign-out {
     border-radius: 25%;
     cursor: pointer;
     transition: 0.3s;
+    font-size: 100px;
+    
 }
-
 a.sign-out:hover {
     background-color: red;
 }
@@ -175,13 +176,13 @@ button:hover {
 
 .a2 {
     display: block;
-    background-color: orangered;
+    background-color: yellow;
     color: white;
-    margin-left: 1700px;
+    margin-left: 1300px;
     border-radius: 20%;
     transition: 0.3s;
     display: flex;
-    justify-content: center;
+    justify-content: center
 }
 
 .a2:hover {
