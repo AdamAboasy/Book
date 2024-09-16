@@ -1,10 +1,13 @@
 /* Default (light mode) */
+
 :root {
     --background-color: #ffffff;
     --text-color: #000000;
 }
 
+
 /* Dark mode */
+
 body.dark-mode {
     --background-color: #333333;
     --text-color: #ffffff;
@@ -27,6 +30,12 @@ body {
     padding-bottom: 5px;
     margin-left: 1px;
     font-size: 60px;
+    transition: 0.3s;
+}
+
+.yes:hover {
+    background-color: rgb(3, 156, 3);
+    transform: scale(1.2);
 }
 
 .no {
@@ -39,6 +48,12 @@ body {
     padding-bottom: 5px;
     margin-left: 1px;
     font-size: 60px;
+    transition: 0.3s;
+}
+
+.no:hover {
+    background-color: rgb(255, 69, 69);
+    transform: scale(1.2);
 }
 
 .are {
