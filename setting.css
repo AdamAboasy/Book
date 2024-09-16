@@ -23,10 +23,11 @@ body {
     color: #fff;
     text-decoration: none;
     transition: 0.3s;
+    margin-left: 1300px;
 }
 
 .main:hover {
-    margin-left: 10px;
+    margin-left: 1310px;
     text-decoration: underline;
 }
 
