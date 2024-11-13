@@ -35,7 +35,7 @@ body {
 
 .main:hover {
     background-color: darkblue;
-    color: white;
+    color:white;
     font-weight:bolder;
 }
 button {
@@ -91,4 +91,20 @@ h1 {
     flex-direction: row;
     text-decoration: none;
     color: var(--text-color);
+}
+
+.a2 {
+    display: block;
+    background-color: yellow;
+    color: black;
+    margin-left: 1300px;
+    border-radius: 20%;
+    transition: 0.3s;
+    display: flex;
+    justify-content: center
+}
+
+.a2:hover {
+    background-color: cyan;
+    color: black;
 }
