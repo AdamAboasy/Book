@@ -177,7 +177,7 @@ button:hover {
 .a2 {
     display: block;
     background-color: yellow;
-    color: white;
+    color: black;
     margin-left: 1300px;
     border-radius: 20%;
     transition: 0.3s;
