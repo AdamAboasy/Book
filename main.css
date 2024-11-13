@@ -297,3 +297,67 @@ ul li {
     border-radius: 20%;
     background-color: var(--text-color);
 }
+.min {
+    display: block;
+    background-color: yellow;
+    color: black;
+    margin-left: 1000px;
+    border-radius: 20%;
+    transition: 0.3s;
+    display: flex;
+    justify-content: center;
+    padding : 10px 10px;
+    font-weight:bolder;
+}
+
+
+.min:hover {
+    background-color: darkblue;
+    color: white;
+    font-weight:bolder;
+}
+.a2 {
+    display: block;
+    background-color: yellow;
+    color: black;
+    margin-left: 1300px;
+    border-radius: 20%;
+    transition: 0.3s;
+    display: flex;
+    justify-content: center
+}
+
+.a2:hover {
+    background-color: cyan;
+    color: black;
+}
+
+.ar {
+    display: block;
+    font-size: 125%;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 1000px;
+    margin-top: 30px;
+    width: 500px;
+    padding: 5px;
+    background-color: blue;
+    color: orangered;
+    border: none;
+    border-radius: 25%;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 100px;
+
+
+    
+}
+.ar:hover {
+    background-color: red;
+    color:#333333;
+}
+
