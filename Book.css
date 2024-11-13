@@ -38,28 +38,21 @@ li a:hover {
     transition: 0.3s;
 }
 
-.back {
-    text-decoration: none;
-    color: blue;
-    margin-right: 35px;
-    padding: 10px;
-    font-size: 32px;
+.a2 {
+    display: block;
+    background-color: blue;
+    color: black;
+    margin-left: 1300px;
+    border-radius: 20%;
     transition: 0.3s;
     display: flex;
-    flex-direction: row-reverse;
+    justify-content: center
 }
 
-.back:hover {
-    text-decoration: underline;
-    color: purple;
-    margin-right: 35px;
-    padding: 10px;
-    font-size: 32px;
-    transition: 0.3s;
-    display: flex;
-    flex-direction: row-reverse;
+.a2:hover {
+    background-color: purple;
+    color: black;
 }
-
 img {
     margin-left: 50px;
     margin-top: 10px;
