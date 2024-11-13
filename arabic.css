@@ -56,20 +56,21 @@ h1 {
 }
 
 .ars {
-    text-decoration: none;
-    display: flex;
-    color: var(--text-color);
-    justify-content: end;
-    align-items: center;
-    text-align: center;
+    display: block;
+    background-color: yellow;
+    color: black;
+    margin-left: 1000px;
+    border-radius: 20%;
     transition: 0.3s;
-    margin-right: 10px;
-    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    padding : 10px 10px;
+    font-weight:bolder;
 }
 
+
 .ars:hover {
-    transition: 0.3s;
-    color: var(--text-color);
-    text-decoration: underline;
-    margin-right: 20px;
+    background-color: darkblue;
+    color:white;
+    font-weight:bolder;
 }
