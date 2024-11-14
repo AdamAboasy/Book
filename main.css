@@ -277,26 +277,23 @@ ul li {
 }
 
 .jh {
-    display: block;
-    display: inline-block;
-    text-decoration: none;
-    margin-left: 40%;
-    color: goldenrod;
-    font-size: 150%;
+    font-size: 32px;
+    font-weight: bold;
+    color: chartreuse;
     transition: 0.3s;
 }
 
 .jh:hover {
     display: block;
     display: inline-block;
-    text-decoration: underline;
-    margin-left: 41%;
+    margin-left: 2px;
     color: var(--background-color);
-    font-size: 180%;
+    font-size: 24px;
     padding: 10px;
     border-radius: 20%;
     background-color: var(--text-color);
 }
+
 .min {
     display: block;
     background-color: yellow;
@@ -306,16 +303,16 @@ ul li {
     transition: 0.3s;
     display: flex;
     justify-content: center;
-    padding : 10px 10px;
-    font-weight:bolder;
+    padding: 10px 10px;
+    font-weight: bolder;
 }
-
 
 .min:hover {
     background-color: darkblue;
     color: white;
-    font-weight:bolder;
+    font-weight: bolder;
 }
+
 .a2 {
     display: block;
     background-color: yellow;
@@ -352,12 +349,9 @@ ul li {
     cursor: pointer;
     transition: 0.3s;
     font-size: 100px;
-
-
-    
 }
+
 .ar:hover {
     background-color: red;
-    color:#333333;
+    color: #333333;
 }
-
