@@ -15,8 +15,8 @@ body.dark-mode {
 }
 
 body {
-    background-color: #333;
-    color: white;
+    background-color: var(--background-color);
+    color: var(--text-color);
     transition: background-color 0.3s, color 0.3s;
 }
 
@@ -29,7 +29,7 @@ h1 {
 .nav a {
     text-decoration: none;
     display: flex;
-    color: #fff;
+    color: var(--text-color);
     justify-content: start;
     align-items: center;
     text-align: center;
