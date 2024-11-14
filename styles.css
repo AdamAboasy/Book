@@ -24,14 +24,6 @@ a.sign_out {
     color: crimson;
 }
 
-.signup-container {
-    background-color: white;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 300px;
-}
-
 h2 {
     text-align: center;
     color: #333;
@@ -95,8 +87,8 @@ a.sign-out {
     cursor: pointer;
     transition: 0.3s;
     font-size: 100px;
-    
 }
+
 a.sign-out:hover {
     background-color: red;
 }
@@ -159,7 +151,8 @@ input[type="password"] {
     box-sizing: border-box;
 }
 
-button {
+input.linksd {
+    display: block;
     width: 100%;
     padding: 10px;
     background-color: #4CAF50;
@@ -168,9 +161,12 @@ button {
     border-radius: 4px;
     cursor: pointer;
     font-size: 16px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
 }
 
-button:hover {
+input.linlsd:hover {
     background-color: #45a049;
 }
 
