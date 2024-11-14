@@ -1,22 +1,20 @@
-// Check for saved mode in localStorage
-const savedMode = localStorage.getItem('mode') || 'light';
+// document.getElementById('signup-form').addEventListener('submit', function(event) {
+//     event.preventDefault();
 
-// Apply saved mode on page load
-if (savedMode === 'dark') {
-    document.body.classList.add('dark-mode');
-    document.getElementById('mode-toggle').textContent = 'Switch to Light Mode';
-}
+//     const username = document.getElementById('username').value;
+//     const email = document.getElementById('email').value;
+//     const password = document.getElementById('password').value;
 
-// Toggle mode and update localStorage
-document.getElementById('mode-toggle').addEventListener('click', function () {
-    document.body.classList.toggle('dark-mode');
+//     // Simple validation (in a real application, you'd send data to a server)
+//     if (username && email && password) {
+//         document.getElementById('message').textContent = "Sign up successful!";
+//         document.getElementById('message').style.color = "green";
+//     } else {
+//         document.getElementById('message').textContent = "Please fill in all fields.";
+//     }
+// });
 
-    // Update button text and save preference
-    if (document.body.classList.contains('dark-mode')) {
-        this.textContent = 'Switch to Light Mode';
-        localStorage.setItem('mode', 'dark');
-    } else {
-        this.textContent = 'Switch to Dark Mode';
-        localStorage.setItem('mode', 'light');
-    }
-});
+// // Back button functionality
+// document.getElementById('back-button').addEventListener('click', function() {
+//     window.history.back();
+// });
