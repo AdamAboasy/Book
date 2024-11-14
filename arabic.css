@@ -1,10 +1,13 @@
 /* Default (light mode) */
+
 :root {
     --background-color: #ffffff;
     --text-color: #000000;
 }
 
+
 /* Dark mode */
+
 body.dark-mode {
     --background-color: #333333;
     --text-color: #ffffff;
@@ -14,6 +17,7 @@ body {
     background-color: var(--background-color);
     color: var(--text-color);
     transition: background-color 0.3s, color 0.3s;
+    direction: rtl;
 }
 
 h1 {
@@ -45,7 +49,7 @@ h1 {
     text-align: center;
     transition: 0.3s;
     margin-left: 10px;
-    margin-bottom: 50px;
+    margin-bottom: 5px;
 }
 
 .nav a:hover {
@@ -64,13 +68,32 @@ h1 {
     transition: 0.3s;
     display: flex;
     justify-content: center;
-    padding : 10px 10px;
-    font-weight:bolder;
+    padding: 10px 10px;
+    font-weight: bolder;
 }
-
 
 .ars:hover {
     background-color: darkblue;
-    color:white;
-    font-weight:bolder;
+    color: white;
+    font-weight: bolder;
+}
+
+.jh {
+    right: 0;
+    font-size: 32px;
+    font-weight: bold;
+    color: chartreuse;
+    transition: 0.3s;
+}
+
+.jh:hover {
+    right: 0;
+    display: block;
+    display: inline-block;
+    margin-left: 2px;
+    color: var(--background-color);
+    font-size: 24px;
+    padding: 10px;
+    border-radius: 20%;
+    background-color: var(--text-color);
 }
