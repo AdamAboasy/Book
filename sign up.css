@@ -1,0 +1,29 @@
+    /* Default (light mode) */
+    /* :root {
+    --background-color: #ffffff;
+    --text-color: #000000;
+} */
+    /* Dark mode */
+    
+    body.dark-mode {
+        --background-color: #333333;
+        --text-color: #ffffff;
+    }
+    
+    body {
+        background-color: var(--background-color);
+        color: var(--text-color);
+        transition: background-color 0.3s, color 0.3s;
+    }
+    
+    .signup-contain {
+        display: flexbox;
+        background-color: white;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        width: 300px;
+        margin: auto;
+        top: 0;
+        bottom: 0;
+    }
