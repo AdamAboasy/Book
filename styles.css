@@ -69,7 +69,7 @@ button {
 
 a.sign-out {
     display: block;
-    font-size: 125%;
+    font-size: 120%;
     text-transform: capitalize;
     display: flex;
     justify-content: center;
@@ -87,6 +87,7 @@ a.sign-out {
     cursor: pointer;
     transition: 0.3s;
     font-size: 100px;
+    padding: auto;
 }
 
 a.sign-out:hover {
