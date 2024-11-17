@@ -1,33 +1,31 @@
-<!DOCTYPE html>
+<doctyoe .html></doctyoe>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up Page</title>
+    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="sign up.css">
 </head>
 
 <body>
     <div class="signup-container">
         <h2>تسجيل الدخول</h2>
-        <form id="signup_ar" action="caspar(arabic).html">
-            <label for="username">الاسم:</label>
+        <form action="caspar(arabic).html" id="signup-form">
+            <label for="username">اسم المستخدم</label>
             <input type="text" id="username" name="username" required>
 
-            <label for="email">جيمال:</label>
+            <label for="email">الإيمال</label>
             <input type="email" id="email" name="email" required>
 
-            <label for="password">باسورد:</label>
-            <input type="password" id="password" name="password" required>
-            <input type="submit" value="إرسال" class="sub">
-            <!-- <button type="submit">Sign Up</button> -->
+            <label for="password">كلمة المرور</label>
+            <input type="password" id="password" name="password" required minlength="10" maxlength="15">
+            <input type="submit" value="Sign Up" class="linsksd">
         </form>
-        <p id="message"></p>
-        <!-- Back button -->
-        <!-- <button id="back-button">Back</button> -->
     </div>
 
+    <script src="script.js"></script>
     <script src="scripts.js"></script>
 </body>
 
