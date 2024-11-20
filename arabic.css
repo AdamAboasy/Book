@@ -70,7 +70,7 @@ h1 {
     display: flex;
     justify-content: right;
     justify-self: right;
-    padding: 10px 30px;
+    padding: 10px 40px;
     font-weight: bolder;
     
 }
@@ -103,16 +103,38 @@ h1 {
 
 .a2 {
     display: block;
-    background-color: yellow;
-    color: black;
+    background-color: black;
+    color: goldenrod;
     margin-left: 1200px;
     border-radius: 20%;
     transition: 0.3s;
     display: flex;
     justify-content: center;
+    padding: 5px 15px;
 }
 
 .a2:hover {
-    background-color: cyan;
+    background-color: white;
     color: black;
+}
+.ars2 {
+    display: block;
+    background-color: yellow;
+    color: black;
+    margin-left: 1000px;
+    margin: 30px;
+    border-radius: 20%;
+    transition: 0.3s;
+    display: flex;
+    justify-content: left;
+    justify-self: left;
+    padding: 10px 500px;
+    font-weight: bolder;
+    
+}
+
+.ars2:hover {
+    background-color: darkblue;
+    color: white;
+    font-weight: bolder;
 }
