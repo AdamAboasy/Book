@@ -321,7 +321,9 @@ ul li {
     border-radius: 20%;
     transition: 0.3s;
     display: flex;
-    justify-content: center
+    justify-content: c;
+    justify-self: center;
+    
 }
 
 .a2:hover {
