@@ -107,15 +107,16 @@ ul.u li {
     font-size: 32px;
 }
 
-.about_developers a.link {
+.link {
     text-align: left;
+    color: white;
     margin-left: 20px;
     font-size: 24px;
     transition: 0.3s;
     text-decoration: none;
 }
 
-.about_developers a.link:hover {
+.link:hover {
     text-align: left;
     margin-left: 35px;
     font-size: 24px;
@@ -177,6 +178,7 @@ ul li {
 
 .books {
     text-decoration: none;
+    color: chocolate;
     margin-left: 10px;
     display: flex;
     flex-direction: row;
@@ -323,7 +325,6 @@ ul li {
     display: flex;
     justify-content: c;
     justify-self: center;
-    
 }
 
 .a2:hover {
