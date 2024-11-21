@@ -186,3 +186,30 @@ input.linlsd:hover {
     background-color: cyan;
     color: black;
 }
+
+.signout {
+    display: block;
+    font-size: 50%;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 70px;
+    margin-top: 30px;
+    width: 800px;
+    padding: 30px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 25%;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 100px;
+    padding: auto;
+}
+
+.signout:hover {
+    background-color: red;
+}
